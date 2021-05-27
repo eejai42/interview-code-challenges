@@ -1,0 +1,11 @@
+﻿InterviewTest,InputParameter1,ExpectedResult
+Palindrome,"""A Santa at Nasa""",TRUE
+Palindrome,"""A man a plan a canal panama""",TRUE
+Palindrome,"""Dumb  mud""",TRUE
+Palindrome,"""Hello world""",FALSE
+Square,5,25
+SquareRoot,25,5
+Square,60,3600
+SquareRoot,3600,60
+CheckLine,3575.55,"""three thousand, five hundred and seventy-five """
+CheckLine,35134.55,"""thirty-five thousand, one hundred and thirty-four """

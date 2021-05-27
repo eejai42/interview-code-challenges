@@ -1,0 +1,2 @@
+Square,Takes a number and is expected to return the Square of that number,Square,double,double,run,
+SquareRoot,Takes a number and is expected to return the Square Root of that number,SquareRoot,double,double,run,

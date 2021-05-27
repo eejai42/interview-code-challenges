@@ -1,0 +1,27 @@
+{
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "SaveDisabled": false,
+  "SSoTmeProjectId": "bcffdc55-82f5-4a3b-875a-8b39af2f9ae7",
+  "Name": "interview-tests",
+  "ProjectSettings": [
+    {
+      "ProjectSettingId": "81f211b6-7a09-4103-b7b4-3233e72a94a3",
+      "Name": "project-name",
+      "Value": "interview-tests"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "ee9226b6-ac95-4a6a-8ea3-e2ef655fd9dc",
+        "Name": "CsvXsltTransform",
+        "Description": "Csv Xslt Transform"
+      },
+      "ProjectTranspilerId": "5801b984-5900-4791-896e-8b256be5b8d5",
+      "Name": "CsvXsltTransform",
+      "RelativePath": "",
+      "CommandLine": "codee42/csv-xslt-transform -i .\\SSoT\\*.csv -i ExpandCSV.xslt"
+    }
+  ]
+}
