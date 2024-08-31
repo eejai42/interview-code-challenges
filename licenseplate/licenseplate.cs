@@ -17,7 +17,7 @@ namespace licenseplate
         public static bool HasDuplicates(this List<string> inputValue)
         {
             // TODO: Implement
-            throw new NotImplementedException("Your job is to implement this function");
+            return inputValue.Count != inputValue.Distinct().Count();
         }
     }
 }

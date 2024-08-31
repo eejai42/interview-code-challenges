@@ -17,7 +17,8 @@ namespace palindrome
         public static bool IsPalindrome(this string inputValue)
         {
             // TODO: Implement
-            throw new NotImplementedException("Your job is to implement this function");
+            var test = inputValue.ToLower().Replace(" ", "");
+            return test == String.Join("", test.Reverse());
         }
     }
 }
